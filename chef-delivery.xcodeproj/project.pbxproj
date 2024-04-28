@@ -14,6 +14,7 @@
 		9A8D28AF2BDEC64700026530 /* chef_deliveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D28AE2BDEC64700026530 /* chef_deliveryTests.swift */; };
 		9A8D28B92BDEC64700026530 /* chef_deliveryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D28B82BDEC64700026530 /* chef_deliveryUITests.swift */; };
 		9A8D28BB2BDEC64700026530 /* chef_deliveryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D28BA2BDEC64700026530 /* chef_deliveryUITestsLaunchTests.swift */; };
+		9A8D29232BDEC8B000026530 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 9A8D29222BDEC8B000026530 /* assets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		9A8D28B42BDEC64700026530 /* chef-deliveryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chef-deliveryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8D28B82BDEC64700026530 /* chef_deliveryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chef_deliveryUITests.swift; sourceTree = "<group>"; };
 		9A8D28BA2BDEC64700026530 /* chef_deliveryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chef_deliveryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9A8D29222BDEC8B000026530 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		9A8D289B2BDEC64600026530 /* chef-delivery */ = {
 			isa = PBXGroup;
 			children = (
+				9A8D29222BDEC8B000026530 /* assets */,
 				9A8D289C2BDEC64600026530 /* chef_deliveryApp.swift */,
 				9A8D289E2BDEC64600026530 /* ContentView.swift */,
 				9A8D28A02BDEC64700026530 /* Assets.xcassets */,
@@ -233,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A8D29232BDEC8B000026530 /* assets in Resources */,
 				9A8D28A52BDEC64700026530 /* Preview Assets.xcassets in Resources */,
 				9A8D28A12BDEC64700026530 /* Assets.xcassets in Resources */,
 			);
