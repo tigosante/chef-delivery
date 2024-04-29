@@ -9,10 +9,27 @@ import SwiftUI
 
 struct NavigationBar: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Spacer()
+            
+            Button("Location") {}
+            .font(.subheadline)
+            .fontWeight(.semibold)
+            .foregroundColor(.black)
+            
+            Spacer()
+            
+            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                Image(systemName: "bell.badge")
+                    .font(.title3)
+                    .foregroundColor(.red)
+            })
+        }
     }
 }
 
 #Preview {
     NavigationBar()
+        .previewLayout(.sizeThatFits)
+        .padding()
 }

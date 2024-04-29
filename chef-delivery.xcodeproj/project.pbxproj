@@ -15,6 +15,7 @@
 		9A8D28B92BDEC64700026530 /* chef_deliveryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D28B82BDEC64700026530 /* chef_deliveryUITests.swift */; };
 		9A8D28BB2BDEC64700026530 /* chef_deliveryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D28BA2BDEC64700026530 /* chef_deliveryUITestsLaunchTests.swift */; };
 		9A8D29232BDEC8B000026530 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 9A8D29222BDEC8B000026530 /* assets */; };
+		9A8D29272BDECCAC00026530 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D29262BDECCAC00026530 /* NavigationBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9A8D28B82BDEC64700026530 /* chef_deliveryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chef_deliveryUITests.swift; sourceTree = "<group>"; };
 		9A8D28BA2BDEC64700026530 /* chef_deliveryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chef_deliveryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9A8D29222BDEC8B000026530 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		9A8D29262BDECCAC00026530 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +99,9 @@
 		9A8D289B2BDEC64600026530 /* chef-delivery */ = {
 			isa = PBXGroup;
 			children = (
+				9A8D29242BDECC8700026530 /* App */,
+				9A8D29252BDECC9300026530 /* NavigationBar */,
 				9A8D29222BDEC8B000026530 /* assets */,
-				9A8D289C2BDEC64600026530 /* chef_deliveryApp.swift */,
-				9A8D289E2BDEC64600026530 /* ContentView.swift */,
 				9A8D28A02BDEC64700026530 /* Assets.xcassets */,
 				9A8D28A22BDEC64700026530 /* chef_delivery.entitlements */,
 				9A8D28A32BDEC64700026530 /* Preview Content */,
@@ -130,6 +132,23 @@
 				9A8D28BA2BDEC64700026530 /* chef_deliveryUITestsLaunchTests.swift */,
 			);
 			path = "chef-deliveryUITests";
+			sourceTree = "<group>";
+		};
+		9A8D29242BDECC8700026530 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9A8D289C2BDEC64600026530 /* chef_deliveryApp.swift */,
+				9A8D289E2BDEC64600026530 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9A8D29252BDECC9300026530 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				9A8D29262BDECCAC00026530 /* NavigationBar.swift */,
+			);
+			path = NavigationBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +284,7 @@
 			files = (
 				9A8D289F2BDEC64600026530 /* ContentView.swift in Sources */,
 				9A8D289D2BDEC64600026530 /* chef_deliveryApp.swift in Sources */,
+				9A8D29272BDECCAC00026530 /* NavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
