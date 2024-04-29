@@ -23,6 +23,7 @@
 		9AFD0E282BDFDD92002B732E /* CarouselTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFD0E272BDFDD92002B732E /* CarouselTabView.swift */; };
 		9AFD0E2B2BDFE030002B732E /* StoreItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFD0E2A2BDFE030002B732E /* StoreItemView.swift */; };
 		9AFD0E2D2BDFE202002B732E /* StoresContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFD0E2C2BDFE202002B732E /* StoresContainerView.swift */; };
+		9AFD0E2F2BDFEC62002B732E /* StoreDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFD0E2E2BDFEC62002B732E /* StoreDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		9AFD0E272BDFDD92002B732E /* CarouselTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabView.swift; sourceTree = "<group>"; };
 		9AFD0E2A2BDFE030002B732E /* StoreItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemView.swift; sourceTree = "<group>"; };
 		9AFD0E2C2BDFE202002B732E /* StoresContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresContainerView.swift; sourceTree = "<group>"; };
+		9AFD0E2E2BDFEC62002B732E /* StoreDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +210,7 @@
 			children = (
 				9AFD0E2A2BDFE030002B732E /* StoreItemView.swift */,
 				9AFD0E2C2BDFE202002B732E /* StoresContainerView.swift */,
+				9AFD0E2E2BDFEC62002B732E /* StoreDetailsView.swift */,
 			);
 			path = StoresView;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				9AFD0DF12BDFD09D002B732E /* OrderType.swift in Sources */,
 				9AFD0E262BDFDC1B002B732E /* CarouselItemView.swift in Sources */,
 				9A8D289F2BDEC64600026530 /* ContentView.swift in Sources */,
+				9AFD0E2F2BDFEC62002B732E /* StoreDetailsView.swift in Sources */,
 				9AFD0DF32BDFD123002B732E /* DataSourceMock.swift in Sources */,
 				9AFD0E2D2BDFE202002B732E /* StoresContainerView.swift in Sources */,
 				9AFD0DF52BDFD36B002B732E /* OrderTypeView.swift in Sources */,

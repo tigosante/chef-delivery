@@ -18,7 +18,13 @@ struct StoresContainerView: View {
             
             VStack(alignment: .leading, spacing: 30) {
                 ForEach(orders, id: \.id) { store in
-                    StoreItemView(order: store)
+                    NavigationLink {
+                        StoreDetailsView(store: store)
+                    } label: {
+                        StoreItemView(order: store)
+                    }
+                    .foregroundColor(.black)
+                    
                 }
             }
         }
