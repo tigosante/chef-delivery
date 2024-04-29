@@ -8,11 +8,24 @@
 import SwiftUI
 
 struct StoresContainerView: View {
+    let orders: [OrderType]
+    let title = "Lojas"
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading) {
+            Text(title)
+                .font(.headline)
+            
+            VStack(alignment: .leading, spacing: 30) {
+                ForEach(orders, id: \.id) { store in
+                    StoreItemView(order: store)
+                }
+            }
+        }
+        .padding(20)
     }
 }
 
 #Preview {
-    StoresContainerView()
+    StoresContainerView(orders: storeMock)
 }
