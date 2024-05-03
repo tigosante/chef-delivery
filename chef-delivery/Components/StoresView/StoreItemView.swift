@@ -8,17 +8,17 @@
 import SwiftUI
 
 struct StoreItemView: View {
-    let order: OrderType
+    let store: StoreType
     
     var body: some View {
         let imageSize = CGFloat(50)
         HStack() {
-            Image(order.image)
+            Image(store.logoImage)
                 .resizable()
                 .scaledToFit()
                 .cornerRadius(imageSize / 2)
                 .frame(width: imageSize, height: imageSize)
-            Text(order.name)
+            Text(store.name)
                 .font(.subheadline)
             Spacer()
         }
@@ -26,5 +26,5 @@ struct StoreItemView: View {
 }
 
 #Preview {
-    StoreItemView(order: OrderType(id: 1, name: "Monstro Burger", image: "monstro-burger-logo"))
+    StoreItemView(store: storesMock[0])
 }
