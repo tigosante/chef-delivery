@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct StoresContainerView: View {
+struct StoresDetailContainerView: View {
     let stores: [StoreType]
     let title = "Lojas"
     @State private var ratingFilter = 0
@@ -60,9 +60,9 @@ struct StoresContainerView: View {
                 VStack(alignment: .leading, spacing: 30) {
                     ForEach(filteredStores) { store in
                         NavigationLink {
-                            StoreDetailsView(store: store)
+                            StoresDetailsView(store: store)
                         } label: {
-                            StoreItemView(store: store)
+                            StoresDetailItemView(store: store)
                         }
                         .foregroundColor(.black)
                     }
@@ -74,5 +74,5 @@ struct StoresContainerView: View {
 }
 
 #Preview {
-    StoresContainerView(stores: storesMock)
+    StoresDetailContainerView(stores: storesMock)
 }

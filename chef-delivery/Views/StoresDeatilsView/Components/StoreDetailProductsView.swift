@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct StoreDetailProductsView: View {
+struct StoresDetailProductsView: View {
     let store: StoreType
     @State private var selectedProduct: ProductType?
     
@@ -22,7 +22,7 @@ struct StoreDetailProductsView: View {
                 Button(action: {
                     selectedProduct = product
                 }, label: {
-                    StoreDetailProductItemView(product: product)
+                    StoresDetailProductItemView(product: product)
                 }
                 ).sheet(item: $selectedProduct) { product in
                     ProductDetailsView(product: product)
@@ -33,5 +33,5 @@ struct StoreDetailProductsView: View {
 }
 
 #Preview {
-    StoreDetailProductsView(store: storesMock[0])
+    StoresDetailProductsView(store: storesMock[0])
 }

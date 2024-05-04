@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct StoreDetailHeaderView: View {
+struct StoresDetailHeaderView: View {
     let store: StoreType
     
     var body: some View {
@@ -44,5 +44,5 @@ struct StoreDetailHeaderView: View {
 }
 
 #Preview {
-    StoreDetailHeaderView(store: storesMock[0])
+    StoresDetailHeaderView(store: storesMock[0])
 }

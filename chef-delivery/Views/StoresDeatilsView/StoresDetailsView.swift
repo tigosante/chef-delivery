@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-struct StoreDetailsView: View {
+struct StoresDetailsView: View {
     let store: StoreType
     @Environment(\.presentationMode) var presetationMode
     
     var body: some View {
         ScrollView(showsIndicators: false) {
             VStack(alignment: .leading) {
-                StoreDetailHeaderView(store: store)
-                StoreDetailProductsView(store: store)
+                StoresDetailHeaderView(store: store)
+                StoresDetailProductsView(store: store)
             }
             .navigationTitle(store.name)
             .navigationBarBackButtonHidden()
@@ -37,5 +37,5 @@ struct StoreDetailsView: View {
 }
 
 #Preview {
-    StoreDetailsView(store: storesMock[0])
+    StoresDetailsView(store: storesMock[0])
 }

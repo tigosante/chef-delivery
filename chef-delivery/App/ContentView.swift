@@ -14,11 +14,12 @@ struct ContentView: View {
                 NavigationBar()
                     .padding(.horizontal, 15)
                     .padding(.vertical, 10)
+                
                 ScrollView(.vertical, showsIndicators: false) {
                     VStack(spacing: 20) {
                         OrderTypeGridView()
                         CarouselTabView()
-                        StoresContainerView(stores: storesMock)
+                        StoresDetailContainerView(stores: storesMock)
                     }
                 }
             }
