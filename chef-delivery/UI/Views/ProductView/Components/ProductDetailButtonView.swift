@@ -8,15 +8,17 @@
 import SwiftUI
 
 struct ProductDetailButtonView: View {
+    var onButtonPressed: () -> Void
+    
     var body: some View {
         Button {
-//
+            onButtonPressed()
         } label: {
             HStack {
                 Image(systemName: "cart")
                     .foregroundColor(.white)
                 
-                Text("Adicionar ao carrinho")
+                Text("Enivar pedido")
                     .foregroundColor(.white)
             }
             .padding(.horizontal, 16)
@@ -31,5 +33,7 @@ struct ProductDetailButtonView: View {
 }
 
 #Preview {
-    ProductDetailButtonView()
+    ProductDetailButtonView {
+//
+    }
 }
